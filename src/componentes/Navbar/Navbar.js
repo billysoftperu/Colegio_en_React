@@ -15,7 +15,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            I.E.Josefa Carrillo y Albornoz <i className="fab fa-typo3" />
+            I.E.Josefa Carrillo <i className="fab fa-typo3" />
           </Link>
 
           <img id="logo1" src="./asset/images/josefa.png" alt="logo" />
