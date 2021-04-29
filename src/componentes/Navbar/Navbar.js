@@ -1,61 +1,151 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 
 function Navbar() {
 
   const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
+  const closeMobileMenu=()=> setClick(false);
+
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
 
 
 
   return (
     <>
-      <nav className="navbar">
-        <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            I.E.Josefa Carrillo <i className="fab fa-typo3" />
-          </Link>
+      
 
-          <img id="logo1" src="./asset/images/josefa.png" alt="logo" />
+          <nav className='navbar'>
+                <div className='navbar-container'>
 
-          <ul class="nav-menu">
+               
+               
 
-            <li>
-              <a href="./acerca.html">Acerca de la I.E <i class="fas fa-chevron-circle-right"></i
-              ></a>
-            </li>
-            <li>
-              <a href="./estudiantes.html">Estudiantes <i class="fas fa-chevron-circle-right"></i
-              ></a>
-            </li>
-            <li>
-              <a href="./docentes.html">Docentes <i class="fas fa-chevron-circle-right"></i
-              ></a>
-            </li>
-            <li>
-              <a href="./admision.html">Admisión <i class="fas fa-chevron-circle-right"></i
-              ></a>
-            </li>
-            <li>
-              <a href="./sistema.html">Sistema de Notas <i class="fas fa-chevron-circle-right"></i
-              ></a>
-            </li>
-          </ul>
+                    <div className='menu-icon' onClick={handleClick}>
+                          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                    </div>
 
-          <p id="nombre-ie">I.E. Josefa Carrillo y Albornoz</p>
-          <img id="logo2" src="./asset/images/josefa.png" alt="nombreie" />
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
+                          <li className='nav-item'>
+                            <Link 
+                            to='/' 
+                            className='nav-links' 
+                            onClick={closeMobileMenu}>
+                            Inicio
+                            </Link>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link
+                              to='/estudiantes'
+                              className='nav-links'
+                              onClick={closeMobileMenu}
+                            >
+                              Estudiantes
+                            </Link>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link
+                              to='/docentes'
+                              className='nav-links'
+                              onClick={closeMobileMenu}
+                            >
+                              Docentes
+                            </Link>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link
+                              to='/comunicados'
+                              className='nav-links'
+                              onClick={closeMobileMenu}
+                            >
+                              Comunicados
+                            </Link>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link
+                              to='/admision'
+                              className='nav-links'
+                              onClick={closeMobileMenu}
+                            >
+                              Admisión
+                            </Link>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link
+                              to='/bliblioteca'
+                              className='nav-links'
+                              onClick={closeMobileMenu}
+                            >
+                              Biblioteca Virtual
+                            </Link>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link
+                              to='/videoteca'
+                              className='nav-links'
+                              onClick={closeMobileMenu}
+                            >
+                              Videoteca
+                            </Link>
+                          </li>
+
+                          <li className='nav-item'>
+                            <Link
+                              to='/mapa'
+                              className='nav-links'
+                              onClick={closeMobileMenu}
+                            >
+                              Mapa
+                            </Link>
+                          </li>
+
+                          
+                        
+
+                          <li>
+                            <Link
+                              to='/sisnotas'
+                              className='nav-links-mobile'
+                              onClick={closeMobileMenu}
+                            >
+                              Sistema de Notas
+                            </Link>
+                          </li>
+                        </ul>
+
+                        {button && <Button buttonStyle='btn--outline'>Sistema de Notas</Button>}
+
+                       
 
 
-          <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
+                </div>
 
-
-        </div>
-
-      </nav>
+          </nav>
     </>
   );
 
