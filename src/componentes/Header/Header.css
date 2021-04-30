@@ -33,8 +33,7 @@
   .logo2 {
     width: 100px;
     height: 100px;
-    
-    
+        
   }
   
   .header-logo {
@@ -47,39 +46,202 @@
     display: flex;
     align-items: center;
     filter: drop-shadow(2px 2px 1px black);
-    width: 1000px;
+    width: 1400px;
     gap: 30px;
+  }
+
+  .header-container > i{
+    color: white;
   }
   
   
   
+  
+
+  
+  
+
+ 
+
   
  
   
-  @media screen and (max-width: 960px) {
-    
-  
+  @media screen and (max-width: 1920px) {
+
+    .header-container {
+      
+      
+      max-width: 1800px;
+      gap: 10px;
+      padding: 5px;
+      
+        
+    }
+
     .header-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
-
-      width: 1000px;
-      font-size: 1.5rem;
-      display:flex;
-      align-items: center;
-      gap:10px
-    }
-
-    .logo1{
-      margin-left: -680px;
      
+      font-size: 2.5rem;
+      padding: 5px;
+      
     }
 
-    .logo2{
-      margin-left: -50px;
+   
+
+  } 
+ 
+  @media screen and (max-width: 1600px) {
+
+    .header-container {
+      
+      
+      max-width: 1400px;
+      gap: 10px;
+      padding: 5px;
+      
+        
+    }
+
+    .header-logo {
      
+      font-size: 2.5rem;
+      padding: 5px;
+      
+    }
+  } 
+
+  @media screen and (max-width: 1440px) {
+
+    .header-container {
+      
+      
+      max-width: 1200px;
+      gap: 10px;
+      padding: 5px;
+      
+        
     }
 
-  }
+    .header-logo {
+     
+      font-size: 2.5rem;
+      padding: 5px;
+      
+    }
+  } 
+
+  @media screen and (max-width: 1366px) {
+
+    .header-container {
+      
+      
+      max-width: 1000px;
+      gap: 10px;
+      padding: 5px;
+      
+        
+    }
+
+    .header-logo {
+     
+      font-size: 2.5rem;
+      padding: 5px;
+      
+    }
+  } 
+  
+
+  @media screen and (max-width: 960px) {
+
+    .header-container {
+      
+      
+      max-width: 700px;
+      gap: 10px;
+      padding: 5px;
+      
+        
+    }
+
+    .header-logo {
+     
+      font-size: 2.5rem;
+      padding: 5px;
+      
+    }
+  }  
+
+  @media screen and (max-width: 720px) {
+
+    .header-container {
+      
+      
+      max-width: 500px;
+      gap: 10px;
+      padding: 5px;
+      
+        
+    }
+
+    .header-logo {
+     
+      font-size: 2.5rem;
+      padding: 5px;
+      
+    }
+  }  
+
+
+  @media screen and (max-width: 500px) {
+
+    .header-container {
+      
+      
+      max-width: 430px;
+      gap: 10px;
+      padding: 5px;
+      
+        
+    }
+
+    .header-logo {
+     
+      font-size: 2rem;
+      padding: 5px;
+      
+    }
+  }  
+
+
+  
+  @media screen and (max-width: 360px) {
+
+    .header-container {
+     
+      max-width: 320px;
+      gap: 5px;
+      padding: 5px;
+      
+        
+    }
+
+    .header-logo {
+     
+      font-size: 1.4rem;
+      display: flex;
+      flex-direction: column;
+            
+    }
+
+    .logo1 {
+      width: 70px;
+      height: 70px;
+      
+    }
+  
+    .logo2 {
+      width: 70px;
+      height: 70px;
+          
+    }
+  }  
+

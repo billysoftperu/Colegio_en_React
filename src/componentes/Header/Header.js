@@ -19,17 +19,18 @@ function Header() {
           <nav className='header'>
                 <div className='header-container'>
 
-                <img className="logo1" src='/images/insignea.png' />
+                    <img className="logo1" src='/images/insignea.png' />
                      <Link to='/' className='header-logo' onClick={closeMobileMenu}>
                      
                            I.E. JC y A
+                           
+                           
                            <i class="fas fa-chalkboard-teacher"/>
                      </Link>
+                     
+                     <img className="logo2" src='/images/josefa.png' />
 
-               
-
-                <img className="logo2" src='/images/josefa.png' />
-
+                
 
                 </div>
 
