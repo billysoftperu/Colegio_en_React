@@ -14,7 +14,7 @@ function Navbar() {
 
 
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 720) {
       setButton(false);
     } else {
       setButton(true);
@@ -86,11 +86,11 @@ function Navbar() {
 
                           <li className='nav-item'>
                             <Link
-                              to='/admision'
+                              to='/matricula'
                               className='nav-links'
                               onClick={closeMobileMenu}
                             >
-                              Admisión
+                              Matrícula
                             </Link>
                           </li>
 

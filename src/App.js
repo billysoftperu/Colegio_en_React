@@ -7,6 +7,7 @@ import Home from './componentes/Home/Home';
 import Estudiantes from './componentes/Estudiantes/Estudiantes';
 import Docentes from './componentes/Docentes/Docentes';
 import SistNotas from './componentes/Notas/SistNotas';
+import Matricula from './componentes/Matricula/Matricula';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/estudiantes' exact component={Estudiantes} />
           <Route path='/docentes' exact component={Docentes} />
           <Route path='/sisnotas' exact component={SistNotas} />
+          <Route path='/matricula' exact component={Matricula} />
 
         </Switch>
       </Router>
