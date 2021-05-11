@@ -41,8 +41,8 @@ function Footer() {
         <div class='footer-link-items'>
             <h2>Puedes visitar:</h2>
             <Link to='/'>Inicio</Link>
-            <Link to='/estudiantes'>Estudiantes</Link>
-            <Link to='/docentes'>Docentes</Link>
+            <Link to='/acerca'>Acerca de la I.E</Link>
+            <Link to='/actividades'>Actividades</Link>
         </div>
           
         </div>

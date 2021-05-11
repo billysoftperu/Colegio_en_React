@@ -56,21 +56,21 @@ function Navbar() {
 
                           <li className='nav-item'>
                             <Link
-                              to='/estudiantes'
+                              to='/acerca'
                               className='nav-links'
                               onClick={closeMobileMenu}
                             >
-                              Estudiantes
+                              Acerca de la I.E
                             </Link>
                           </li>
 
                           <li className='nav-item'>
                             <Link
-                              to='/docentes'
+                              to='/actividades'
                               className='nav-links'
                               onClick={closeMobileMenu}
                             >
-                              Docentes
+                              Actividades
                             </Link>
                           </li>
 

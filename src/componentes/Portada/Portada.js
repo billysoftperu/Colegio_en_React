@@ -23,7 +23,7 @@ function Portada() {
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    onClick={console.log('hey')}
+                    
                 >
                     Galería de Fotos <i className='far fa-play-circle' />
                 </Button>
@@ -32,7 +32,7 @@ function Portada() {
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    onClick={console.log('hey')}
+                    
                 >
                     Facebook <i className='far fa-play-circle' />
                 </Button>

@@ -4,10 +4,12 @@ import Navbar from './componentes/Navbar/Navbar'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './componentes/Home/Home';
-import Estudiantes from './componentes/Estudiantes/Estudiantes';
-import Docentes from './componentes/Docentes/Docentes';
-import SistNotas from './componentes/Notas/SistNotas';
+import Acerca from './componentes/Acerca/Acerca';
+import Actividades from './componentes/Actividades/Actividades';
+import Comunicados from './componentes/Comunicados/Comunicados';
 import Matricula from './componentes/Matricula/Matricula';
+import SistNotas from './componentes/Notas/SistNotas';
+
 
 function App() {
 
@@ -18,10 +20,12 @@ function App() {
         <Navbar/>
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/estudiantes' exact component={Estudiantes} />
-          <Route path='/docentes' exact component={Docentes} />
-          <Route path='/sisnotas' exact component={SistNotas} />
+          <Route path='/acerca' exact component={Acerca} />
+          <Route path='/actividades' exact component={Actividades} />
+          <Route path='/comunicados' exact component={Comunicados} />
           <Route path='/matricula' exact component={Matricula} />
+          <Route path='/sisnotas' exact component={SistNotas} />
+          
 
         </Switch>
       </Router>

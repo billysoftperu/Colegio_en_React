@@ -12,7 +12,7 @@ function Matricula() {
       <form className='container-formulario'>
 
           <div className="titulo">
-               <h1 className="titulo-h1">Ingrese sus Datos para la solicitud de Admisión</h1>
+               <h1 className="titulo-h1">Ingrese sus Datos para la solicitud de Matrícula</h1>
           </div>  
         
           <div className="row">
@@ -188,7 +188,7 @@ function Matricula() {
 
        
           <div className="row7">
-                  <button id="btnSend" type="submit" className="btn btn-theme-colored btn-lg btn-block" data-loading-text="Espere un momento...">Enviar mensaje</button>
+                  <button id="btnSend" type="submit" className="btn btn-theme-colored btn-lg btn-block" data-loading-text="Espere un momento...">Enviar solicitud</button>
           </div> 
  
 
