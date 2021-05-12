@@ -1,6 +1,37 @@
 import React from 'react';
-import '../../App.css';
+import './SisNotas.css';
 
-export default function SistNotas() {
-  return <h1 className='sisnotas'>SistNotas</h1>;
+
+
+
+
+function SisNotas() {
+    return (
+
+<div className='sisnotas-fondo'>
+  
+    <h1 className='sisnotas-titulo'>Sistema de Notas de Estudiantes</h1>
+
+    <div className='sisnotas-container'>
+
+        <div className="sisnotas-imagen">
+            <img className="mensaje" src="/images/web-en-construccion.jpg" alt="web" />
+
+        </div>
+
+
+    </div>
+
+
+
+</div>
+        
+
+
+
+
+
+    );
 }
+
+export default SisNotas;

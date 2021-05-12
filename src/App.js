@@ -8,7 +8,15 @@ import Acerca from './componentes/Acerca/Acerca';
 import Actividades from './componentes/Actividades/Actividades';
 import Comunicados from './componentes/Comunicados/Comunicados';
 import Matricula from './componentes/Matricula/Matricula';
+import Biblioteca from './componentes/Biblioteca/Biblioteca';
+import Videoteca from './componentes/Videoteca/Videoteca';
+import Mapa from './componentes/Mapa/Mapa';
+
 import SistNotas from './componentes/Notas/SistNotas';
+
+import Footer from './componentes/Footer/Footer';
+
+
 
 
 function App() {
@@ -18,16 +26,23 @@ function App() {
       <Router>
         <Header />
         <Navbar/>
+
+        
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/acerca' exact component={Acerca} />
           <Route path='/actividades' exact component={Actividades} />
           <Route path='/comunicados' exact component={Comunicados} />
           <Route path='/matricula' exact component={Matricula} />
+          <Route path='/biblioteca' exact component={Biblioteca} />
+          <Route path='/videoteca' exact component={Videoteca} />
+          <Route path='/mapa' exact component={Mapa} />
+
           <Route path='/sisnotas' exact component={SistNotas} />
           
-
+          
         </Switch>
+        <Footer />
       </Router>
 
    </>

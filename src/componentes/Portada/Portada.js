@@ -5,12 +5,12 @@ import './Portada.css';
 
 function Portada() {
     return (
-        <div className='hero-container'>
+        <div className='portada-container'>
            
            
             <h1>I.E. Josefa Carrillo y Albornoz</h1>
             <p>https://www.facebook.com/iejosefacarrilloyalbornoz</p>
-            <div className='hero-btns'>
+            <div className='portada-btns'>
                 <Button
                     className='btns'
                     buttonStyle='btn--primary'

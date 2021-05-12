@@ -1,6 +1,38 @@
 import React from 'react';
-import '../../App.css';
+import './Actividades.css';
 
-export default function Actividades() {
-  return <h1 className='actividades'>Actividades</h1>;
+
+
+
+
+function Actividades() {
+    return (
+
+<div className='actividades-fondo'>
+    <h1 className='actividades-titulo'>Actividades</h1>
+
+    <div className='actividades-container'>
+
+    <div className="actividades-imagen">
+            <img className="mensaje" src="/images/web-en-construccion.jpg" alt="web" />
+
+
+           
+        </div>
+
+
+    </div>
+
+
+
+</div>
+        
+
+
+
+
+
+    );
 }
+
+export default Actividades;

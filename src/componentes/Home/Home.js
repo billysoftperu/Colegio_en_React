@@ -2,9 +2,12 @@ import React from 'react';
 import '../../App.css';
 import Portada from '../Portada/Portada';
 import Cards from '../Cards/Cards';
-import Footer from '../Footer/Footer';
 
+
+
+import Acerca from '../Acerca/Acerca';
 import Matricula from '../Matricula/Matricula';
+
 
 
 function Home() {
@@ -12,8 +15,11 @@ function Home() {
     <>
       <Portada />
       <Cards />
+
+      <Acerca />
       <Matricula />
-      <Footer />
+
+     
       
     </>
   );

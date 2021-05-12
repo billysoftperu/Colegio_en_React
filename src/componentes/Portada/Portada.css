@@ -1,5 +1,5 @@
 
-.hero-container {
+.portada-container {
   background: url('../../asset/images/colegio.jpg') center center/cover repeat;
   height: 100vh;
   width: 100%;
@@ -15,40 +15,41 @@
 
 }
 
-.hero-container > h1 {
+.portada-container > h1 {
   color: rgb(255, 0, 0);
   font-size: 100px;
   margin-top: -100px;
   filter: drop-shadow(5px 5px 2px rgb(255, 255, 255));
 }
 
-.hero-container > h1:hover {
+.portada-container > h1:hover {
   transform: scale(1.1);
 }
 
-.hero-container > p:hover {
+.portada-container > p:hover {
   transform: scale(1.1);
 }
 
-.hero-container > p {
+.portada-container > p {
   margin-top: 8px;
-  color: rgb(0, 0, 0);
+  color: rgb(221, 151, 1);
   font-size: 32px;
   font-weight: 20px;
+  border-bottom: 2px solid white;
   /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif; */
-  filter: drop-shadow(2px 2px 1px rgb(255, 255, 255));
+  filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
 }
 
-.hero-btns {
+.portada-btns {
   margin-top: 32px;
 }
 
-.hero-btns .btn {
+.portada-btns .btn {
   margin: 15px;
 }
 
-.hero-btns .btn:hover {
+.portada-btns .btn:hover {
   transform: scale(1.2);
 }
 
@@ -57,19 +58,19 @@
 }
 
 @media screen and (max-width: 960px) {
-  .hero-container > h1 {
+  .portada-container > h1 {
     font-size: 70px;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
+  .portada-container > h1 {
     font-size: 50px;
     margin-top: -100px;
   }
 
-  .hero-container > p {
+  .portada-container > p {
     font-size: 30px;
   }
 

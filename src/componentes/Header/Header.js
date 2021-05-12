@@ -25,7 +25,7 @@ function Header() {
                            I.E. JC y A
                            
                            
-                           <i class="fas fa-chalkboard-teacher"/>
+                           <i className="fas fa-chalkboard-teacher"/>
                      </Link>
                      
                      <img className="logo2" src='/images/josefa.png' alt="logo2"/>

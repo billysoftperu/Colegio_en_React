@@ -1,0 +1,35 @@
+.sisnotas-fondo {
+    padding: 4rem;
+    background-image: url("../../asset/images/fondo-gris.jpg");
+         
+  }
+
+.sisnotas-container {
+   
+     /*z-index: 0;  Para posicionar el objeto delante o detrás de otro elemento*/
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width: 60%;
+   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+     
+      
+}
+
+.sisnotas-imagen > img{
+    height: 600px;
+    width: 600px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.sisnotas-titulo {
+    color: rgb(4, 4, 139);
+    font-size: 40px;
+ }
