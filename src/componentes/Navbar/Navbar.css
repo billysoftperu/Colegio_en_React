@@ -18,15 +18,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 60px;
     max-width: 1950px;
     gap: 50px;
     
   }
 
- 
-   
-  
   
   .nav-menu {
     display: grid;
@@ -40,8 +37,8 @@
   }
   
   .nav-item {
-    height: 40px;
-    filter: drop-shadow(2px 2px 1px black);
+    filter: drop-shadow(2px 2px 1px rgb(8, 8, 8));
+    
   }
   
   .nav-links {
@@ -54,9 +51,11 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #ffae51;
+    
     transition: all 0.2s ease-out;
-    color: #ffae51;
+    color: #fff;
+    background: #af0101;
+    border-radius:5px;
   }
   
   .fa-bars {
@@ -70,7 +69,86 @@
   .menu-icon {
     display: none;
   }
+
+/* --*/
+
+  .sub-menu-1 {
+    display: none;
+    border-radius: 5px;
+              
+  }
+
+  .submenu {
+    
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    filter: drop-shadow(2px 2px 1px rgb(8, 8, 8));
+
+  }
+
+  .submenu li {
+    
+    display: flex;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+  }
+
+  .submenu:hover{
+    
+    transition: all 0.2s ease-out;
+    background: #af0101;
+    border-radius: 5px;
+  }
+
+  .navbar-container ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #242424;
+    margin-top: 190px;
+    margin-left: -18px;
+    width: 200px;
+    height: 150px;
+       
+  }
+
+
+  .navbar-container ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
   
+  }
+
+
+  .navbar-container ul li .sub-menu-1 .sub-item {
+    height: 30px;
+    text-decoration: none;
+    line-height: 12px;
+  }
+  
+  .navbar-container ul li .sub-menu-1 .sub-links {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    text-align: left; 
+    font-size: 16px;  
+   
+  }
+
+  .navbar-container ul li .sub-menu-1 li:hover {
+    transition: all 0.2s ease-out;
+    background: #af0101;
+    border-radius: 5px;
+  }
+
+
+
+
+
 
   @media screen and (max-width: 1380px) {
     .nav-menu {

@@ -11,6 +11,7 @@ import Matricula from './componentes/Matricula/Matricula';
 import Biblioteca from './componentes/Biblioteca/Biblioteca';
 import Videoteca from './componentes/Videoteca/Videoteca';
 import Mapa from './componentes/Mapa/Mapa';
+import Contenedor from './componentes/Contenedor/Contenedor'
 
 import SistNotas from './componentes/Notas/SistNotas';
 
@@ -37,6 +38,8 @@ function App() {
           <Route path='/biblioteca' exact component={Biblioteca} />
           <Route path='/videoteca' exact component={Videoteca} />
           <Route path='/mapa' exact component={Mapa} />
+          <Route path='/contenedor' exact component={Contenedor} />
+          
 
           <Route path='/sisnotas' exact component={SistNotas} />
           

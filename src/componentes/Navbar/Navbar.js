@@ -54,45 +54,66 @@ function Navbar() {
                             </Link>
                           </li>
 
-                          <li className='nav-item'>
-                            <Link
-                              to='/acerca'
-                              className='nav-links'
-                              onClick={closeMobileMenu}
-                            >
-                              Acerca de la I.E
-                            </Link>
+                          <li className='submenu'>
+                           
+                                Acerca de la I.E
+                                <div className='sub-menu-1'>
+                                  <ul>
+                                      <li className='sub-item'><Link to='/acerca' className='sub-links' onClick={closeMobileMenu}>Bienvenidos</Link></li>
+                                      <li className='sub-item'><Link to='/contenedor' className='sub-links' onClick={closeMobileMenu}>Misión y Visión</Link></li> 
+                                      <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Comunidad Educativa</Link></li>
+                                      <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Reglamento Interno</Link></li>  
+                                  </ul>                     
+                                </div>
+                                                      
                           </li>
 
-                          <li className='nav-item'>
-                            <Link
-                              to='/actividades'
-                              className='nav-links'
-                              onClick={closeMobileMenu}
-                            >
-                              Actividades
-                            </Link>
+                          <li className='submenu'>
+                           
+                                Actividades
+                                <div className='sub-menu-1'>
+                                  <ul>
+                                      <li className='sub-item'><Link to='/actividades' className='sub-links' onClick={closeMobileMenu}>Académicas</Link></li>
+                                      <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Culturales</Link></li> 
+                                      <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Artísticas</Link></li>
+                                      <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Formativas</Link></li>  
+                                  </ul>                     
+                                </div>
+                                                      
                           </li>
 
-                          <li className='nav-item'>
-                            <Link
-                              to='/comunicados'
-                              className='nav-links'
-                              onClick={closeMobileMenu}
-                            >
-                              Comunicados
-                            </Link>
+
+                          <li className='submenu'>
+                           
+                           Comunicados
+                           <div className='sub-menu-1'>
+                             <ul>
+                                 <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>2019</Link></li>
+                                 <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>2020</Link></li> 
+                                 <li className='sub-item'><Link to='/comunicados' className='sub-links' onClick={closeMobileMenu}>2021</Link></li>
+                               
+                             </ul>                     
+                           </div>
+                                                 
                           </li>
 
-                          <li className='nav-item'>
-                            <Link
-                              to='/matricula'
-                              className='nav-links'
-                              onClick={closeMobileMenu}
-                            >
-                              Matrícula
-                            </Link>
+                          <li className='submenu'>
+                           
+                           Matrícula
+                           <div className='sub-menu-1'>
+                             <ul>
+                                 <li className='sub-item'><Link to='/matricula' className='sub-links' onClick={closeMobileMenu}>Proceso de matrícula</Link></li>
+                                 <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Certificados</Link></li> 
+                                 <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Consultas</Link></li>
+                               
+                             </ul>                     
+                           </div>
+                                                 
                           </li>
+
+                                           
+
+                          
 
                           <li className='nav-item'>
                             <Link
