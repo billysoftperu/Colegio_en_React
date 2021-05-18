@@ -31,8 +31,8 @@
 }
 
 .portada-container > p {
-  margin-top: 8px;
-  color: rgb(221, 151, 1);
+  
+  color: rgb(255, 255, 255);
   font-size: 32px;
   font-weight: 20px;
   border-bottom: 2px solid white;
@@ -42,7 +42,7 @@
 }
 
 .portada-btns {
-  margin-top: 32px;
+  margin-top: 30px;
 }
 
 .portada-btns .btn {

@@ -159,7 +159,7 @@ function Navbar() {
                           </li>
                         </ul>
 
-                        {button && <Button buttonStyle='btn--outline'>Sistema de Notas</Button>}
+                        {button && <Button buttonStyle='boton-sistema'>Sistema de Notas</Button>}
 
                        
 

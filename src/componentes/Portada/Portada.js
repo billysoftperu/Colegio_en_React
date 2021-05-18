@@ -9,7 +9,7 @@ function Portada() {
            
            
             <h1>I.E. Josefa Carrillo y Albornoz</h1>
-            <p>https://www.facebook.com/iejosefacarrilloyalbornoz</p>
+            <p>Lurigancho  - Chosica</p>
             <div className='portada-btns'>
                 <Button
                     className='btns'
