@@ -11,7 +11,7 @@ function Matricula() {
     <div className='matricula'>
 
 
-    <form className='container-formulario'>
+    <form className='formulari-container'>
 
         <div className="titulo">
             <h1 className="titulo-h1">Ingrese sus Datos para la solicitud de Matrícula</h1>
@@ -49,12 +49,12 @@ function Matricula() {
 
             <div className="dni">
                 <label className="nombrer-label" Htmlfor="">Documento de Identidad :</label>
-                <input class="form-control"placeholder="DNI" type="number" name="dni" id="dni" />
+                <input className="form-control"placeholder="DNI" type="number" name="dni" id="dni" />
             </div>
 
             <div className="domicilio">
                 <label className="nombrer-label" Htmlfor="">Domicilio :</label>
-                <input class="form-control" placeholder="Dirección" type="text" name="domicilio" id="domicilio"/>
+                <input className="form-control" placeholder="Dirección" type="text" name="domicilio" id="domicilio"/>
             </div>
 
         </div>                          
@@ -63,17 +63,17 @@ function Matricula() {
 
             <div className="nombre">
               <label className="nombrer-label" Htmlfor="">Nombre del postulante :</label>
-              <input class="form-control" placeholder="Nombres" type="text" name="nombre" id="nombre" />
+              <input className="form-control" placeholder="Nombres" type="text" name="nombre" id="nombre" />
             </div>
 
             <div className="apellido">
               <label className="nombrer-label" Htmlfor="">Apellido Paterno del postulante :</label>
-              <input class="form-control" placeholder="Apellidos" type="text" name="apellido" id="apellido" />
+              <input className="form-control" placeholder="Apellidos" type="text" name="apellido" id="apellido" />
             </div>
 
             <div className="apellido">
               <label className="nombrer-label" Htmlfor="">Apellido Materno del postulante :</label>
-              <input class="form-control" placeholder="Apellidos" type="text" name="apellido" id="apellido" />
+              <input className="form-control" placeholder="Apellidos" type="text" name="apellido" id="apellido" />
             </div>
 
         </div>

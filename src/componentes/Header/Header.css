@@ -37,7 +37,7 @@
   }
   
   .header-logo {
-    color: #fff;
+    color: rgb(255, 255, 255);
     justify-self: start;
     margin-left:10px;
     cursor: pointer;
@@ -52,6 +52,10 @@
 
   .header-container > i{
     color: white;
+  }
+
+  .header-logo:hover{
+    color: rgb(255, 196, 0);
   }
   
   
