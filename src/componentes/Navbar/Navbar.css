@@ -150,11 +150,11 @@
 
   .boton-sistema{
     
-    font-size: 50px;
+    font-size: 20px;
     margin-bottom: 20px;
 
     transition: all 0.2s ease-out;
-    color: #ff0202;
+    color: #fff;
     border-bottom: 4px solid red;
     border-radius:5px;
   }
