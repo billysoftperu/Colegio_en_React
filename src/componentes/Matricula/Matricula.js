@@ -20,12 +20,12 @@ function Matricula() {
         <div className="row">
 
             <div className="nombre">
-                <label className="nombrer-label" Htmlfor="">Nombre del Padre/Madre :</label>
+                <label className="nombrer-label" htmlFor="">Nombre del Padre/Madre :</label>
                 <input className="form-control" placeholder="Nombres" type="text" name="nombre" id="nombre" />
             </div>
 
             <div className="apellido">
-                <label className="nombrer-label" Htmlfor="">Apellido del Padre/Madre :</label>
+                <label className="nombrer-label" htmlFor="">Apellido del Padre/Madre :</label>
                 <input className="form-control" placeholder="Apellidos" type="text" name="apellido" id="apellido" />
             </div>
 
@@ -34,12 +34,12 @@ function Matricula() {
         <div className="row">
 
             <div className="celular">
-                <label className="nombrer-label" Htmlfor="">Nro. del celular del padre/madre :</label>
+                <label className="nombrer-label" htmlFor="">Nro. del celular del padre/madre :</label>
                 <input className="form-control" placeholder="Celular" type="text" name="celular" id="celular" />
             </div>
 
             <div className="correo">
-                <label className="nombrer-label" Htmlfor="">Correo del padre/madre :</label>
+                <label className="nombrer-label" htmlFor="">Correo del padre/madre :</label>
                 <input className="form-control" placeholder="Correo" type="text" name="correo" id="correo" />
             </div>
 
@@ -48,12 +48,12 @@ function Matricula() {
         <div className="row">
 
             <div className="dni">
-                <label className="nombrer-label" Htmlfor="">Documento de Identidad :</label>
+                <label className="nombrer-label" htmlFor="">Documento de Identidad :</label>
                 <input className="form-control"placeholder="DNI" type="number" name="dni" id="dni" />
             </div>
 
             <div className="domicilio">
-                <label className="nombrer-label" Htmlfor="">Domicilio :</label>
+                <label className="nombrer-label" htmlFor="">Domicilio :</label>
                 <input className="form-control" placeholder="Dirección" type="text" name="domicilio" id="domicilio"/>
             </div>
 
@@ -62,17 +62,17 @@ function Matricula() {
         <div className="row">
 
             <div className="nombre">
-              <label className="nombrer-label" Htmlfor="">Nombre del postulante :</label>
+              <label className="nombrer-label" htmlFor="">Nombre del postulante :</label>
               <input className="form-control" placeholder="Nombres" type="text" name="nombre" id="nombre" />
             </div>
 
             <div className="apellido">
-              <label className="nombrer-label" Htmlfor="">Apellido Paterno del postulante :</label>
+              <label className="nombrer-label" htmlFor="">Apellido Paterno del postulante :</label>
               <input className="form-control" placeholder="Apellidos" type="text" name="apellido" id="apellido" />
             </div>
 
             <div className="apellido">
-              <label className="nombrer-label" Htmlfor="">Apellido Materno del postulante :</label>
+              <label className="nombrer-label" htmlFor="">Apellido Materno del postulante :</label>
               <input className="form-control" placeholder="Apellidos" type="text" name="apellido" id="apellido" />
             </div>
 
@@ -118,20 +118,16 @@ function Matricula() {
           </div>
 
         <div className="row3">
-            <textarea className="form-control" placeholder="Comentarios" rows="3"  name="comentario" id="comentario" aria-required="true"></textarea>
+            <textarea className="form-control" type="text" placeholder="Comentarios" rows="3"  name="comentario" id="comentario" aria-required="true"></textarea>
         </div>
-
-        <div className="row4">
-            <input type="checkbox" id="verificar" name="verificar" onclick="availableSend()"/>
-            <a href='/' target="_blank">Acepto la política de privacidad</a>
-        </div>
+        
 
         <div className="row5">
 
             <div className="Departamento">
                 <label htmlFor="">Departamento</label>
                 <select className="form-control" id="region" name="region"  required="" aria-required="true">
-                <option selected>Selecciona</option>
+                <option value="Selecciona">Selecciona</option>
                 <option value="Amazonas">Amazonas</option>
                 <option value="Ancash">Áncash</option>
                 <option value="Apurímac">Apurimac</option>
@@ -141,9 +137,9 @@ function Matricula() {
             </div>
 
             <div className="Provincia">
-                <label Htmlfor="">Provincia</label>
+                <label htmlFor="">Provincia</label>
                 <select className="form-control" id="provincia" name="provincia"  required="" aria-required="true">
-                <option selected>Selecciona</option>
+                <option value="Selecciona">Selecciona</option>
                 <option value="Chachapoyas">Chachapoyas</option>
                 <option value="Bagua">Bagua</option>
                 <option value="Bongara">Bongara</option>
@@ -158,9 +154,9 @@ function Matricula() {
             </div>
 
             <div className="Distrito">
-              <label Htmlfor="">Distrito</label>
+              <label htmlFor="">Distrito</label>
               <select className="form-control" id="distrito" name="distrito"  required="" aria-required="true">
-              <option selected>Selecciona</option>
+              <option value="Selecciona">Selecciona</option>
               <option value="Lima">Miraflores</option>
               <option value="SanBorja">San Borja</option>
               <option value="San Luis">San Luis</option>
@@ -176,13 +172,13 @@ function Matricula() {
               <h3>Nivel de Estudio:</h3>
 
                 <div className="primaria">
-                    <input type="radio" id="primaria" name="gender"value="primaria"/>
-                    <label Htmlfor="gender">Primaria</label>
+                    <input type="radio" id="primaria" name="gender" value="primaria"/>
+                    <label htmlFor="gender">Primaria</label>
                 </div>
 
                 <div className="secundaria">
-                    <input type="radio" id="secundaria" name="gender"value="secundaria"/>
-                    <label Htmlfor="gender">Secundaria</label>
+                    <input type="radio" id="secundaria" name="gender" value="secundaria"/>
+                    <label htmlFor="gender">Secundaria</label>
                 </div>
 
         </div>

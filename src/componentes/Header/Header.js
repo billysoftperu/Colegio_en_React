@@ -9,7 +9,7 @@ function Header() {
   const [click,setClick] = useState(false);
   
 
-  
+  const handleClick = () => setClick(!click);
   const closeMobileMenu=()=> setClick(false);
 
   return (
@@ -19,7 +19,7 @@ function Header() {
           <nav className='header'>
                 <div className='header-container'>
 
-                    <img className="logo1" src='/images/insignea.png' alt="logo1"/>
+                    <img className="logo1" src='/images/insignea.png' alt="logo1" onClick={handleClick}/>
                      <Link to='/' className='header-logo' onClick={closeMobileMenu}>
                      
                            I.E. JC y A
@@ -28,7 +28,7 @@ function Header() {
                            <i className="fas fa-chalkboard-teacher"/>
                      </Link>
                      
-                     <img className="logo2" src='/images/josefa.png' alt="logo2"/>
+                     <img className="logo2" src='/images/josefa.png' alt="logo2" onClick={handleClick}/>
 
                 
 
