@@ -5,7 +5,7 @@ import './Portada.css';
 
 function Portada() {
     return (
-        <div className='portada-container'>
+        <div className='portada-contenedor'>
            
            
             <h1>I.E. Josefa Carrillo y Albornoz</h1>

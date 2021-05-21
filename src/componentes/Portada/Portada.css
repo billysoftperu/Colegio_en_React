@@ -1,5 +1,5 @@
 
-.portada-container {
+.portada-contenedor {
   background: url('../../asset/images/colegio.jpg') center center/cover repeat;
   height: 100vh;
   width: 100%;
@@ -15,22 +15,22 @@
 
 }
 
-.portada-container > h1 {
+.portada-contenedor> h1 {
   color: rgb(255, 0, 0);
   font-size: 100px;
   margin-top: -100px;
   filter: drop-shadow(5px 5px 2px rgb(255, 255, 255));
 }
 
-.portada-container > h1:hover {
+.portada-contenedor > h1:hover {
   transform: scale(1.1);
 }
 
-.portada-container > p:hover {
+.portada-contenedor > p:hover {
   transform: scale(1.1);
 }
 
-.portada-container > p {
+.portada-contenedor > p {
   
   color: rgb(255, 255, 255);
   font-size: 32px;
@@ -58,19 +58,19 @@
 }
 
 @media screen and (max-width: 960px) {
-  .portada-container > h1 {
+  .portada-contenedor > h1 {
     font-size: 70px;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .portada-container > h1 {
+  .portada-contenedor > h1 {
     font-size: 50px;
     margin-top: -100px;
   }
 
-  .portada-container > p {
+  .portada-contenedor > p {
     font-size: 30px;
   }
 
