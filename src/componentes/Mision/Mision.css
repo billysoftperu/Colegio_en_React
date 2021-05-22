@@ -1,31 +1,25 @@
-.videoteca-fondo {
+.container-fondo {
     padding: 4rem;
     background-image: url("../../asset/images/fondo-gris.jpg");
          
   }
 
-.videoteca-container {
+.container-mision {
    
      /*z-index: 0;  Para posicionar el objeto delante o detrás de otro elemento*/
-     margin: auto;
+     text-align: center;
      margin-top: 20px;
      margin-bottom: 20px;
-     width: 60%;
-
-    display: flex;
-    flex-direction: column;
-    background: black;
-    
-     
-      
+     color: blue;
+                
 }
 
 
-.videoteca-container .imagen-director {
+.container-mision .container-director {
     height: 400px;
     width: 400px;
 }
-.videoteca-titulo {
+.container-titulo {
     color: rgb(4, 4, 139);
     font-size: 40px;
 } 

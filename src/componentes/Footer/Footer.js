@@ -33,9 +33,9 @@ function Footer() {
 
         <div className='footer-link-items'>
             <h2>Contacto:</h2>
-            <Link to='/'>Teléfono: 366-0000</Link>
-            <Link to='/'>Celular: 956310339</Link>
-            <Link to='/'>Soporte Técnico: 922756605</Link>
+            <p>Teléfono: 366-0000</p>
+            <p>Celular: 956310339</p>
+            <p>Soporte Técnico: 922756605</p>
             
         </div>
 
@@ -52,7 +52,7 @@ function Footer() {
             <h2>Enlaces de interés</h2>
             <Link to='/sisnotas'>Sit. Notas</Link>
             <Link to='/videoteca'>Videoteca</Link>
-            <Link to='/biblioteca'>Biblioteca virtual</Link>
+            <Link to='/biblioteca'>Recursos Digitales</Link>
         </div>
         
         <div className='footer-link-items'>
@@ -60,6 +60,7 @@ function Footer() {
             
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
+            <Link to='/'>Instagram</Link>
         </div>
         
         </div>

@@ -11,11 +11,13 @@ import Matricula from './componentes/Matricula/Matricula';
 import Biblioteca from './componentes/Biblioteca/Biblioteca';
 import Videoteca from './componentes/Videoteca/Videoteca';
 import Mapa from './componentes/Mapa/Mapa';
-import Contenedor from './componentes/Contenedor/Contenedor'
+
 
 import SistNotas from './componentes/Notas/SistNotas';
 
 import Footer from './componentes/Footer/Footer';
+import Bienvenidos from './componentes/Bienvenidos/Bienvenidos';
+import Mision from './componentes/Mision/Mision';
 
 
 
@@ -32,13 +34,15 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/acerca' exact component={Acerca} />
+          <Route path='/bienvenidos' exact component={Bienvenidos} />
+          <Route path='/mision' exact component={Mision} />
           <Route path='/actividades' exact component={Actividades} />
           <Route path='/comunicados' exact component={Comunicados} />
           <Route path='/matricula' exact component={Matricula} />
           <Route path='/biblioteca' exact component={Biblioteca} />
           <Route path='/videoteca' exact component={Videoteca} />
           <Route path='/mapa' exact component={Mapa} />
-          <Route path='/contenedor' exact component={Contenedor} />
+          
           
 
           <Route path='/sisnotas' exact component={SistNotas} />
