@@ -25,12 +25,10 @@ import Mision from './componentes/Mision/Mision';
 function App() {
 
   return (
-    <>
+    <div>
       <Router>
         <Header />
-        <Navbar/>
-
-        
+        <Navbar/>     
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/acerca' exact component={Acerca} />
@@ -41,18 +39,13 @@ function App() {
           <Route path='/matricula' exact component={Matricula} />
           <Route path='/biblioteca' exact component={Biblioteca} />
           <Route path='/videoteca' exact component={Videoteca} />
-          <Route path='/mapa' exact component={Mapa} />
-          
-          
-
-          <Route path='/sisnotas' exact component={SistNotas} />
-          
-          
+          <Route path='/mapa' exact component={Mapa} />          
+          <Route path='/sisnotas' exact component={SistNotas} />                 
         </Switch>
         <Footer />
       </Router>
 
-   </>
+   </div>
   );
 }
 

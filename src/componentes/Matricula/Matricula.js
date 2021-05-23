@@ -8,10 +8,23 @@ function Matricula() {
 <div className='matricula-fondo'>
     <h1 className='matricula-titulo'>Matrícula 2021</h1>
 
+    <form>
+  <div className="form-row">
+    <div className="col">
+      <input type="text" className="form-control" placeholder="First name"/>
+    </div>
+    <div className="col">
+      <input type="text" className="form-control" placeholder="Last name"/>
+    </div>
+  </div>
+</form>
+
+
     <div className='matricula'>
 
+       <form className='formulario-container'>
 
-    <form className='formulari-container'>
+   
 
         <div className="titulo">
             <h1 className="titulo-h1">Ingrese sus Datos para la solicitud de Matrícula</h1>
@@ -186,7 +199,7 @@ function Matricula() {
 
     
         <div className="row7">
-                <button id="btnSend" type="submit" className="btn btn-theme-colored btn-lg btn-block" data-loading-text="Espere un momento...">Enviar solicitud</button>
+                <button id="btnSend" type="submit" className="btn btn-danger btn-lg btn-block" data-loading-text="Espere un momento...">Enviar solicitud</button>
         </div> 
 
 

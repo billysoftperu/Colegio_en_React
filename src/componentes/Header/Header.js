@@ -13,7 +13,7 @@ function Header() {
   const closeMobileMenu=()=> setClick(false);
 
   return (
-    <>
+    <div>
       
 
           <nav className='header'>
@@ -35,7 +35,7 @@ function Header() {
                 </div>
 
           </nav>
-    </>
+    </div>
   );
 
 

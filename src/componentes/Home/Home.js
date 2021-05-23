@@ -12,7 +12,7 @@ import Cards from '../Cards/Cards';
 
 function Home() {
   return (
-    <>
+    <div>
       <Portada />
       <Cards />
 
@@ -21,7 +21,7 @@ function Home() {
 
      
       
-    </>
+    </div>
   );
 }
 

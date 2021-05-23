@@ -30,7 +30,7 @@ function Navbar() {
 
 
   return (
-    <>
+    <div>
       
 
           <nav className='navbar'>
@@ -167,7 +167,7 @@ function Navbar() {
                 </div>
 
           </nav>
-    </>
+    </div>
   );
 
 
