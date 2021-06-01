@@ -19,6 +19,8 @@ import Footer from './componentes/Footer/Footer';
 import Bienvenidos from './componentes/Bienvenidos/Bienvenidos';
 import Mision from './componentes/Mision/Mision';
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 
