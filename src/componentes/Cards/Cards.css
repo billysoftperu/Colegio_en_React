@@ -29,23 +29,23 @@
     
   }
   
-  .cards__item {
+  .cards__item { /* Elementos internos de la card */
     display: flex;
     flex: 1;
     margin: 2rem 2rem;
     border-radius: 10px;
-    background: rgb(255, 255, 255);
+    background: rgb(255, 242, 124);
     /* box-shadow: 0px 4px 3px rgb(0, 0, 0); */
-    -webkit-filter: drop-shadow(0 6px 6px rgba(0, 140, 255, 0.5));
-    filter: drop-shadow(0 6px 6px rgba(0, 140, 255, 0.5));
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(5, 5, 5, 0.938));
+    filter: drop-shadow(1px 1px 3px rgb(0, 0, 0));
   }
   
-  .cards__item:hover {
-    transform: scale(1.1);
+  .cards__item:hover { /* Elementos internos de la card */
+    transform: scale(1.2);
   }
 
 
-  .cards__item__link {
+  .cards__item__link { /* Elementos internos de la card */
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -56,7 +56,7 @@
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .cards__item__pic-wrap { /* Elementos internos de la card */
     position: relative;
     width: 100%;
     padding-top:80%;
@@ -68,7 +68,7 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
+  .cards__item__pic-wrap::after { /* Elementos internos de la card */
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -86,7 +86,7 @@
 
   
   
-  .cards__item__img {
+  .cards__item__img { /* Elementos internos de la card */
     position: absolute;
     top: 0;
     right: 0;
@@ -105,11 +105,11 @@
     transform: scale(1.2);
   } */
   
-  .cards__item__info {
+  .cards__item__info {  /* Elementos internos de la card */
     padding: 20px 30px 30px;
   }
   
-  .cards__item__text {
+  .cards__item__text { /* Elementos internos de la card */
     color: #252e48;
     font-size: 18px;
     line-height: 24px;

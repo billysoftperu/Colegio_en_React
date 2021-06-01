@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardsItem';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Cards() {
   return (

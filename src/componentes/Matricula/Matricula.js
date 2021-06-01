@@ -1,6 +1,6 @@
 import React from 'react';
 import './Matricula.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Matricula() {
   return (
@@ -8,16 +8,7 @@ function Matricula() {
 <div className='matricula-fondo'>
     <h1 className='matricula-titulo'>Matrícula 2021</h1>
 
-    <form>
-  <div className="form-row">
-    <div className="col">
-      <input type="text" className="form-control" placeholder="First name"/>
-    </div>
-    <div className="col">
-      <input type="text" className="form-control" placeholder="Last name"/>
-    </div>
-  </div>
-</form>
+  
 
 
     <div className='matricula'>

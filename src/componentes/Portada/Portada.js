@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App';
 import { Button } from '../Button/Button';
 import './Portada.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Portada() {
     return (
@@ -13,7 +14,7 @@ function Portada() {
                 <div className='portada-btns'>
                     <Button
                         className='btns'
-                        buttonStyle='btn--primary'
+                        buttonStyle='btn--outline'
                         buttonSize='btn--large'
                     >
                         Bienvenidos <i className='far fa-play-circle' />
@@ -21,7 +22,7 @@ function Portada() {
 
                     <Button
                         className='btns'
-                        buttonStyle='btn--primary'
+                        buttonStyle='btn--outline'
                         buttonSize='btn--large'
                         
                     >
@@ -30,7 +31,7 @@ function Portada() {
 
                     <Button
                         className='btns'
-                        buttonStyle='btn--primary'
+                        buttonStyle='btn--outline'
                         buttonSize='btn--large'
                         
                     >

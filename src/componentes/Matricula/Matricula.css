@@ -143,38 +143,7 @@
     color: white;
   }
   
-  .row5 {
-      
-      
-      padding: 20px !important;
-      background-color: #034983 !important;
-      box-sizing: border-box;
-      float: none;
-      line-height: 23.8px;
-      z-index: auto;
-      justify-content: center;
-      position: relative;
-      
-  }
-  
-  .row5 button{
-  
-      font-size: 14px;
-      padding: 10px 26px;
-      border-radius: 6px;
-      margin-bottom: 0;
-      font-weight: 400;
-      text-align: center;
-      white-space: nowrap;
-      touch-action: manipulation;
-      cursor: pointer;
-      user-select: none;
-      width: 100%;
-      font-size:20px;
-  }
-  
  
-  
   .row5 {
       padding: 20px !important;
       background-color: #034983 !important;
@@ -212,9 +181,4 @@
       font-family: "Droid Serif", sans-serif;
   }
 
-  .row7 button:hover{
-    color: #fff;
-    background-color: #ffbb00;
-    border-color: #000000;
-    text-decoration: none;
-}
+ 

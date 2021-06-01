@@ -1,6 +1,6 @@
 import React from 'react'
 import './Mision.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Mision() {
     return (
