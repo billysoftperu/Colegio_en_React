@@ -1,8 +1,8 @@
 
 .portada-container {
-  background: url('../../asset/images/colegio.jpg') center center/cover repeat;
+  background: url('/images/colegio1.jpg') center center/cover repeat;
   background-size: cover;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -69,20 +69,47 @@
 }
 
 @media screen and (max-width: 960px) {
-  .container-fluid > h1 {
-    font-size: 70px;
-    margin-top: -150px;
+
+  .portada-container{
+    height: 100%;
+    width: 100%;
   }
+
+  .container-fluid{
+    background: rgba(0, 0, 0, 0.418);
+    top:0;
+    left:0;
+    height: 40vh;
+    width:100%;
+  
+  }
+
+  .container-fluid > h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .portada-btns {
+    margin-top: -10px;
+  }
+
+  .portada-btns .btn {
+    margin: 2px;
+    width: 350px;
+    margin-top: 10px;
+  }
+
+  
 }
 
 @media screen and (max-width: 768px) {
   .container-fluid > h1 {
     font-size: 50px;
-    margin-top: -100px;
+    margin-top: 50px;
   }
 
   .container-fluid > p {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .btn-mobile {
@@ -90,7 +117,5 @@
     text-decoration: none;
   }
 
-  .btn {
-    width: 100%;
-  }
+ 
 }

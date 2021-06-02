@@ -15,6 +15,7 @@ function Biblioteca() {
 
     <div className="biblioteca-imagen">
             <img className="mensaje" src="/images/web-en-construccion.jpg" alt="web" />
+            
 
 
            

@@ -2,7 +2,7 @@
 
 .mapa-fondo {
     padding: 4rem;
-    background-image: url("../../asset/images/fondo-gris.jpg");
+    background-image: url("/images/fondo-gris.jpg");
 
     align-items: center;
     text-align: center;

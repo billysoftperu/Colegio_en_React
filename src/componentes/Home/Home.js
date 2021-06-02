@@ -12,16 +12,20 @@ import Cards from '../Cards/Cards';
 
 function Home() {
   return (
-    <div>
+    <div className="container-home">
+
       <Portada />
       <Cards />
+
+    </div>
+     
 
       
       
 
      
       
-    </div>
+    
   );
 }
 
