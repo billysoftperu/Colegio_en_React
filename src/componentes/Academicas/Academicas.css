@@ -1,10 +1,10 @@
-.actividades-fondo {
+.academicas-fondo {
     padding: 4rem;
     background-image: url("/images/fondo-gris.jpg");
          
   }
 
-.actividades-container {
+.academicas-container {
    
      /*z-index: 0;  Para posicionar el objeto delante o detrás de otro elemento*/
      margin: auto;
@@ -22,14 +22,14 @@
       
 }
 
-.actividades-imagen > img{
+.academicas-imagen > img{
     height: 600px;
     width: 600px;
     border: 1px solid rgb(0, 0, 0);
     
 }
 
-.actividades-titulo {
+.academicas-titulo {
     color: rgb(4, 4, 139);
     font-size: 40px;
 } 

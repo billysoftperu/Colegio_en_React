@@ -10,7 +10,8 @@ function Portada() {
             <div className='container-fluid'>
 
                 <h1>I.E. Josefa Carrillo y Albornoz</h1>
-                <p>Lurigancho  - Chosica</p>
+                <h3>ESTUDIO - SUPERACIÓN - PATRIOTISMO</h3>
+                <p>Prolongación Bolivia S/N - San Fernando Alto - Lurigancho  - Chosica</p>
                 <div className='portada-btns'>
                     <Button
                         className='btns'

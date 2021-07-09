@@ -1,0 +1,70 @@
+.ruleta-fondo {
+    padding: 4rem;
+    background-image: url("/images/fondo-gris.jpg");
+         
+  }
+
+.ruleta-container {
+   
+    /*z-index: 0;  Para posicionar el objeto delante o detrás de otro elemento*/
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+  
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+   
+    
+     
+}
+
+.ruleta-imagen > img{
+   height: 100px;
+   width: 1000px;
+   border: 1px solid rgb(0, 0, 0);
+   
+}
+
+.ruleta-titulo {
+   color: rgb(4, 4, 139);
+   font-size: 40px;
+} 
+
+
+
+.vara {
+    height: 70px;
+    width: 15px;
+    background-color: rgb(121, 255, 43);
+    margin: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #000;
+    border-top: 10px solid #000;
+    z-index: 1000;
+}
+
+img {
+    z-index: 100;
+    transition: all 5s;
+}
+
+#premio {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding: 20px;
+
+    margin: 0 auto;
+}
+
+#sonido{
+    display: none;
+}

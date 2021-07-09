@@ -1,5 +1,7 @@
 import React from 'react';
 import './Videoteca.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 
@@ -8,21 +10,20 @@ import './Videoteca.css';
 function Videoteca() {
     return (
 
+     
+
 <div className='videoteca-fondo'>
-    <h1 className='videoteca-titulo'>Videoteca</h1>
-
-    <div className='videoteca-container'>
-
-   
-            
+    
 
 
 
-    </div>
+  </div>
+
+    
       
 
 
-</div>
+
 
     );
 }

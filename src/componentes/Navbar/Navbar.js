@@ -60,6 +60,7 @@ function Navbar() {
                                 <div className='sub-menu-1'>
                                   <ul>
                                       <li className='sub-item'><Link to='/bienvenidos' className='sub-links' onClick={closeMobileMenu}>Bienvenidos</Link></li>
+                                      <li className='sub-item'><Link to='/resenia' className='sub-links' onClick={closeMobileMenu}>Reseña Histórica</Link></li>
                                       <li className='sub-item'><Link to='/mision' className='sub-links' onClick={closeMobileMenu}>Misión y Visión</Link></li> 
                                       <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Comunidad Educativa</Link></li>
                                       <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Reglamento Interno</Link></li>  
@@ -73,10 +74,11 @@ function Navbar() {
                                 Actividades
                                 <div className='sub-menu-1'>
                                   <ul>
-                                      <li className='sub-item'><Link to='/actividades' className='sub-links' onClick={closeMobileMenu}>Académicas</Link></li>
+                                      <li className='sub-item'><Link to='/academicas' className='sub-links' onClick={closeMobileMenu}>Académicas</Link></li>
                                       <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Culturales</Link></li> 
                                       <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Artísticas</Link></li>
-                                      <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Formativas</Link></li>  
+                                      <li className='sub-item'><Link to='/' className='sub-links' onClick={closeMobileMenu}>Formativas</Link></li>
+                                      <li className='sub-item'><Link to='/Ruleta' className='sub-links' onClick={closeMobileMenu}>Juegos</Link></li>  
                                   </ul>                     
                                 </div>
                                                       

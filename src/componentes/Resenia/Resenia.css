@@ -1,0 +1,53 @@
+.container-fondo {
+    padding: 4rem;
+    background-image: url("/images/fondo-gris.jpg");
+         
+  }
+
+
+
+  .container-titulo {
+    color: rgb(4, 4, 139);
+    font-size: 40px;
+    padding: 20px;
+    
+} 
+
+.container-text1{
+    text-align: center;
+    padding: 20px;
+}
+
+.container-resenia{
+   
+     /*z-index: 0;  Para posicionar el objeto delante o detrás de otro elemento*/
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     color: rgb(0, 0, 0);
+     border-radius: 60px;
+     background-color: rgb(253, 241, 188);
+     max-width:60%;
+     max-height: 100%;
+     text-align:justify;
+     background-image: url("/images/papiro.png");
+     background-repeat: no repeat; 
+     background-size:cover;
+     min-width: 400px;
+     min-height:1600px;    
+                
+}
+
+.subtitulo{
+    padding-top: 120px;
+}
+
+.parrafo{
+    margin: auto;
+    max-width: 800px;
+    text-indent: 50px;
+    /*margin-left: 20px; */
+    padding-top: 120px;
+    
+}
+
