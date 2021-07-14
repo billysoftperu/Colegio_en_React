@@ -24,6 +24,7 @@ import Resenia from './componentes/Resenia/ReseniaHistorica';
 
 import Ruleta from './componentes/Ruleta/Ruleta';
 import Login from './componentes/Login/Login';
+import Registro from './componentes/Notas/Registro';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -58,6 +59,7 @@ function App() {
           <Route path='/mapa' exact component={Mapa} />          
           <Route path='/sisnotas' exact component={SistNotas} />
           <Route path='/login' exact component={Login} />
+          <Route path='/registro' exact component={Registro}/>
                           
         </Switch>
         <Footer />

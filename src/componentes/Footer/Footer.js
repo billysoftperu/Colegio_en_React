@@ -14,17 +14,7 @@ function Footer() {
         <p className='footer-subscription-text'>
         E-mail: ie.josefacarrilloyalbornoz@gmail.com
         </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Escribe'
-            />
-            <Button buttonStyle='btn--outline'>Buscar</Button>
-          </form>
-        </div>
+        
       </section>
       <div className='footer-links'>
 
@@ -57,7 +47,7 @@ function Footer() {
                         </div>
                   
                         <div className='footer-link-items'>
-                            <p className="Subtitulo">Redes Sociales</p>
+                            <p className="subtitulo">Redes Sociales</p>
                             
                             <Link to='/'>Facebook</Link>
                             <Link to='/'>Youtube</Link>

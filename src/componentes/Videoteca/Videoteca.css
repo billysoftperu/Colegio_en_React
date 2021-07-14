@@ -4,6 +4,70 @@
          
   }
 
+
+.nav-tabs .nav-link{
+    background-color: rgb(8, 41, 102);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nav-tabs .nav-link:hover{
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 196, 70);
+    color: black;
+
+}
+
+.tab-inicio{
+    
+    background-color: rgba(75, 152, 253, 0.479);
+    padding: 50px;
+    
+}
+
+.tab-registro{
+    
+    background-color: rgba(75, 152, 253, 0.479);
+    padding: 50px;
+}
+
+.tab-lista{
+    
+    background-color: rgba(75, 152, 253, 0.479);
+    padding: 50px;
+}
+
+.tab-notas{
+    
+    background-color: rgba(75, 152, 253, 0.479);
+    padding: 50px;
+}
+
+.tab-consultas{
+    
+    background-color: rgba(75, 152, 253, 0.479);
+    padding: 50px;
+}
+
+.container-inicio{
+    
+    
+    padding: 100px;
+    min-width:100%;
+    min-height:200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+
   
  
 
