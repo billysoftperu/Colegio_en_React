@@ -129,11 +129,11 @@ function Navbar() {
 
                           <li className='nav-item'>
                             <Link
-                              to='/videoteca'
+                              to='/primaria'
                               className='nav-links'
                               onClick={closeMobileMenu}
                             >
-                              Videoteca
+                              Primaria
                             </Link>
                           </li>
 

@@ -9,7 +9,7 @@ import Academicas from './componentes/Academicas/Academicas';
 import Comunicados from './componentes/Comunicados/Comunicados';
 import Matricula from './componentes/Matricula/Matricula';
 import Biblioteca from './componentes/Biblioteca/Biblioteca';
-import Videoteca from './componentes/Videoteca/Videoteca';
+import Primaria from './componentes/Primaria/Primaria';
 import Mapa from './componentes/Mapa/Mapa';
 
 
@@ -23,10 +23,12 @@ import Resenia from './componentes/Resenia/ReseniaHistorica';
 
 
 import Ruleta from './componentes/Ruleta/Ruleta';
+
 import Login from './componentes/Login/Login';
-import Registro from './componentes/Notas/Registro';
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import RegistroEstudiante from './componentes/Primaria/RegistroEst';
 
 
 
@@ -55,11 +57,11 @@ function App() {
           <Route path='/comunicados' exact component={Comunicados} />
           <Route path='/matricula' exact component={Matricula} />
           <Route path='/biblioteca' exact component={Biblioteca} />
-          <Route path='/videoteca' exact component={Videoteca} />
+          <Route path='/primaria' exact component={Primaria} />
           <Route path='/mapa' exact component={Mapa} />          
           <Route path='/sisnotas' exact component={SistNotas} />
           <Route path='/login' exact component={Login} />
-          <Route path='/registro' exact component={Registro}/>
+          <Route path='/registroestudiante' exact component={RegistroEstudiante}/>
                           
         </Switch>
         <Footer />

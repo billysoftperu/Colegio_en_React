@@ -19,7 +19,7 @@
   
     margin-bottom: 1px;
     padding: 1px;
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
   
   .footer-subscription > p {
@@ -66,13 +66,14 @@
    
   }
   
-  .subtitulo { /* Encabezados de Items*/
+  .encabezado-footer { /* Encabezados de Items*/
     margin-bottom: 1px;
-    font-size: 20px;
+    font-size: 25px;
+    
   }
   
   .footer-link-items > h2 {
-    color: #fff;
+    color: rgb(250, 248, 133);
     
   }
   

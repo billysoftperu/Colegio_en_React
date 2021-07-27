@@ -1,38 +1,44 @@
+
 import Swal from 'sweetalert2';
-import $ from 'jquery';
+
+
 
 const ruleta = document.querySelector('#ruleta');
-export default ruleta;
+let giros=0;
+let valor=0;
+
 
 
 if(ruleta){
   ruleta.addEventListener('click', girar);
-  $.giros = 0;
+  giros = 0;
 }
 
+console.log(ruleta)
+
 function girar(){
-  if ($.giros < 3) {
+  if (giros < 3) {
     let rand = Math.random() * 7200;
     calcular(rand);
-    $.giros++;
+    giros++;
     var sonido = document.querySelector('#audio');
     sonido.setAttribute('src', 'sonido/ruleta.mp3');
-    document.querySelector('.contador').innerHTML = 'TURNOS: ' + $.giros; 
-  }else{
-    Swal.fire({
-      icon: 'success',
-      title: 'VUELVA PRONTO EL JUEGO TERMINO!!',
-      confirmButtonColor: '#3085d6',
-      confirmButtonText: 'Aceptar',
-      allowOutsideClick: false
-    }).then((result)=>{
-      if (result.value === true) {
-        $.giros = 0;
-         document.querySelector('.elije').innerHTML = 'TU CORTESIA ES: ';
-         document.querySelector('.contador').innerHTML = 'TURNOS: ' + $.giros;        
-      }
-    })
-  }
+    document.querySelector('.contador').innerHTML = 'TURNOS: ' + giros; 
+    }else{
+          Swal.fire({
+            icon: 'success',
+            title: 'VUELVA PRONTO EL JUEGO TERMINO!!',
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: 'Aceptar',
+            allowOutsideClick: false
+          }).then((result)=>{
+            if (result.value === true) {
+              giros = 0;
+              document.querySelector('.elije').innerHTML = 'TU CORTESIA ES: ';
+              document.querySelector('.contador').innerHTML = 'TURNOS: ' + giros;        
+            }
+          })
+    }
 
 
   function premio(premios){
@@ -44,35 +50,35 @@ function girar(){
 
   function calcular(rand) {
 
-  $.valor = rand / 360;
-  $.valor = ($.valor - parseInt($.valor.toString().split(".")[0],10))* 360;
+  valor = rand / 360;
+  valor = (valor - parseInt(valor.toString().split(".")[0],10))* 360;
   ruleta.style.transform = "rotate("+rand+"deg)";
 
   setTimeout(() => {
   switch (true) {
-    case $.valor > 0 && $.valor <= 45:
+    case valor > 0 && valor <= 45:
      premio("2 estrellas");
      break;
-     case $.valor > 45 && $.valor <= 90:
+     case valor > 45 && valor <= 90:
      premio("5 Piezas");
      break;
-     case $.valor > 90 && $.valor <= 135:
+     case valor > 90 && valor <= 135:
      premio("2 Corazón"); 
      break; 
-     case $.valor > 135 && $.valor <= 180:
+     case valor > 135 && valor <= 180:
      premio("2 Nigiri");
      break;
-     case $.valor > 180 && $.valor <= 225:
+     case valor > 180 && valor <= 225:
      premio("Handroll Mini");
      break; 
-     case $.valor > 225 && $.valor <= 270:
+     case valor > 225 && valor <= 270:
      premio("NO HAY CORTESIAS ESTA VEZ");
      break;
-     case $.valor > 270 && $.valor <= 315:
+     case valor > 270 && valor <= 315:
      premio("Una Coca Cola de 2L");
      break;
      default:
-     case $.valor > 315 && $.valor <= 360:
+     case valor > 315 && valor <= 360:
      premio("2 Enjoy"); 
      
      break;
@@ -82,3 +88,4 @@ function girar(){
 
 }
 }
+

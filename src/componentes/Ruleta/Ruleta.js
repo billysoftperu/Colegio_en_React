@@ -1,15 +1,21 @@
 import React from 'react';
 import './Ruleta.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+//import './Script.js'
 
-// import ruleta from "./Script.js";
-import './Script.js';
+
+
+
+//const imgRuleta = document.querySelector('#imgruleta');
+
+
+
+  
 
 function Ruleta() {
     return (
 
-     
-
+        
         <div className='ruleta-fondo'>
 
 
@@ -49,7 +55,7 @@ function Ruleta() {
 
                     <div className="vara"></div>
                     <div>
-                        <img src="/images/imagen.png" id="ruleta" alt="vara"/>
+                        <img className="ruleta-imagen" src="/images/imagen.png" id="imgruleta" alt="vara"/>
                     </div>
                     <div>
                         <div id="sonido">

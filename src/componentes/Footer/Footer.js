@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from '../Button/Button';
+//import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
@@ -21,7 +21,7 @@ function Footer() {
             <div className='footer-link-wrapper'>
 
                         <div className='footer-link-items'>
-                            <p className="subtitulo">Contacto:</p>
+                            <h2 className="encabezado-footer">Contacto:</h2>
                             <p>Teléfono: 366-0000</p>
                             <p>Celular: 956310339</p>
                             <p>Soporte Técnico: 922756605</p>
@@ -29,7 +29,7 @@ function Footer() {
                         </div>
 
                         <div className='footer-link-items'>
-                            <p className="subtitulo">Puedes visitar:</p>
+                            <h2 className="encabezado-footer">Puedes visitar:</h2>
                             <Link to='/'>Inicio</Link>
                             <Link to='/acerca'>Acerca de la I.E</Link>
                             <Link to='/actividades'>Actividades</Link>
@@ -40,16 +40,16 @@ function Footer() {
             <div className='footer-link-wrapper'>
 
                         <div className='footer-link-items'>
-                          <p className="subtitulo">Enlaces de interés</p>
+                          <h2 className="encabezado-footer">Enlaces de interés</h2>
                           <Link to='/sisnotas'>Sit. Notas</Link>
                           <Link to='/videoteca'>Videoteca</Link>
-                          <Link to='/biblioteca'>Recursos Digitales</Link>
+                          <Link to='/biblioteca'>Biblioteca Virtual</Link>
                         </div>
                   
                         <div className='footer-link-items'>
-                            <p className="subtitulo">Redes Sociales</p>
+                            <h2 className="encabezado-footer">Redes Sociales</h2>
                             
-                            <Link to='/'>Facebook</Link>
+                            <a href='https://www.facebook.com/iejosefacarrilloyalbornoz'>Facebook</a>
                             <Link to='/'>Youtube</Link>
                             <Link to='/'>Instagram</Link>
                         </div>

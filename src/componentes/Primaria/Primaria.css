@@ -1,0 +1,235 @@
+.videoteca-fondo {
+    padding: 4rem;
+    background-image: url("/images/fondo-gris.jpg");
+         
+  }
+
+
+.nav-tabs .nav-link{
+    background-color: rgb(8, 41, 102);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nav-tabs .nav-link:hover{
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 196, 70);
+    color: black;
+
+}
+
+.tab-inicio{
+    
+    background-color: rgba(194, 255, 137, 0.8);
+    padding: 50px;
+    
+}
+
+.tab-registro{
+    
+    background-color: rgba(255, 245, 185, 0.8);
+    padding: 50px;
+}
+
+.tab-lista{
+    
+    background-color: rgba(255, 245, 185, 0.8);
+    padding: 50px;
+}
+
+.tab-notas{
+    
+    background-color: rgba(255, 245, 185, 0.8);
+    padding: 50px;
+}
+
+.tab-consultas{
+    
+    background-color: rgba(255, 245, 185, 0.8);
+    padding: 50px;
+}
+
+.videoteca-fondo .videoteca{
+    margin: 200px;
+}
+
+.container-inicio{
+    
+    
+    padding: 100px;
+    min-width:100%;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.col-1{
+    gap: 50px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+tbody{
+    text-align: center;
+}
+
+
+
+.titulo-primaria{
+    color: rgb(75, 75, 75);
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.subtitulo-primaria{
+    color: rgb(75, 75, 75);
+    
+}
+
+.subtitulo-primaria2{
+    color: rgb(75, 75, 75);
+    text-align: center;
+    
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn-listar{
+    margin-right: 20px;
+    margin-top: 27px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(22, 102, 252);
+
+}
+
+.btn-listar:hover{
+    background-color: rgb(6, 74, 221);
+
+}
+
+.btn-ingresar{
+    margin-right: 50px;
+    margin-top: 27px;
+    height: 52px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(40, 43, 250);
+    
+
+}
+
+.btn-ingresar:hover{
+    background-color: rgb(10, 13, 202);
+
+}
+
+.btn-editar{
+    margin-right: 20px;
+    margin-top: 27px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(255, 21, 21);
+
+}
+
+.btn-editar:hover{
+    background-color: rgb(197, 4, 4);
+
+}
+
+.btn-guardar{
+    margin-right: 20px;
+    margin-top: 27px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(71, 199, 12);
+
+}
+
+.btn-guardar:hover{
+    background-color: rgb(51, 150, 5);
+
+}
+
+
+
+.table{
+    text-align: center;
+}
+
+.apellidos-nombres{
+    text-align: left;
+}
+
+
+
+.area-curricular{
+    text-align: left;
+    
+}
+
+.competencias{
+    text-align: left;
+}
+
+.encabezado-logro{
+    text-align: center;
+    width: 200px;
+}
+
+.encabezado-area{
+    text-align: center;
+    width: 200px;
+    
+}
+
+.encabezado-competencia{
+    text-align: center;
+    width: 500px;
+    
+}
+
+.tabla1{
+    text-align: left;
+    
+}
+
+.img-boleta {
+    width: 200px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+  
+ 
+
+ 

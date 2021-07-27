@@ -1,6 +1,7 @@
 import React from 'react';
 import './Biblioteca.css';
 
+import Sorteo from '../Ruleta/Sorteo';
 
 
 
@@ -13,13 +14,7 @@ function Biblioteca() {
 
     <div className='biblioteca-container'>
 
-    <div className="biblioteca-imagen">
-            <img className="mensaje" src="/images/web-en-construccion.jpg" alt="web" />
-            
-
-
-           
-        </div>
+    <Sorteo />
 
 
     </div>
