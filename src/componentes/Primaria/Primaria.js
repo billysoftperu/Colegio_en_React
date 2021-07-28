@@ -4,7 +4,11 @@ import './Primaria.css';
 import React from 'react';
 import TabNav from '../Notas/TabNav';
 import Tab from '../Notas/Tabs';
-import RegistroEstudiante from './RegistroEst';
+//import RegistroEstudiante from './RegistroEst';
+import Links from './Links';
+
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 class Primaria extends React.Component {
     constructor(props) {
@@ -22,7 +26,16 @@ class Primaria extends React.Component {
     return (
 
         <div className='videoteca-fondo'>
-          <RegistroEstudiante/>
+          
+          
+          <div className="container p-4">
+            <div className="row">
+                <Links />
+            </div>
+            <ToastContainer />
+          </div>
+
+
           <h2 className="titulo-primaria">NIVEL PRIMARIA 2021</h2>
           <div className="table-responsive">
           
@@ -46,15 +59,15 @@ class Primaria extends React.Component {
                           <form>
                                 <div className="form-row">
                                       <div className="col-3">
-                                          <label for="exampleFormControlInput1">Apellido Paterno:</label>
+                                          <label htmlFor="exampleFormControlInput1">Apellido Paterno:</label>
                                           <input type="lastname1" className="form-control" id="exampleFormControlInput1" placeholder="Paterno"/>
                                       </div>
                                       <div className="col-3">
-                                          <label for="exampleFormControlInput1">Apellido Materno:</label>
+                                          <label htmlFor="exampleFormControlInput1">Apellido Materno:</label>
                                           <input type="lastname2" className="form-control" id="exampleFormControlInput1" placeholder="Materno"/>
                                       </div>
                                       <div className="col-3">
-                                          <label for="exampleFormControlInput1">Nombres:</label>
+                                          <label htmlFor="exampleFormControlInput1">Nombres:</label>
                                           <input type="firstname" className="form-control" id="exampleFormControlInput1" placeholder="Nombres"/>
                                       </div>
 
@@ -64,17 +77,17 @@ class Primaria extends React.Component {
 
                                 <div className="form-row">
                                     <div className="col-2">
-                                        <label for="exampleFormControlInput1">Correo:</label>
+                                        <label htmlFor="exampleFormControlInput1">Correo:</label>
                                         <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Email"/>
                                     </div>
                                     <div className="col-2">
-                                        <label for="exampleFormControlInput1">N° Documento:</label>
+                                        <label htmlFor="exampleFormControlInput1">N° Documento:</label>
                                         <input type="dni" className="form-control" id="exampleFormControlInput1" placeholder="DNI"/>
                                     </div>
 
                                     
                                     <div className="col-2">
-                                         <label for="exampleFormControlSelect1">Grado:</label>
+                                         <label htmlFor="exampleFormControlSelect1">Grado:</label>
                                           <select className="form-control" id="exampleFormControlSelect1">
                                               <option>Primero</option>
                                               <option>Sedundo</option>
@@ -87,7 +100,7 @@ class Primaria extends React.Component {
                                     </div>
 
                                     <div className="col-2">
-                                        <label for="exampleFormControlSelect1">Sección:</label>
+                                        <label htmlFor="exampleFormControlSelect1">Sección:</label>
                                         <select className="form-control" id="seccion">
                                               <option>A</option>
                                               <option>B</option>
@@ -110,7 +123,7 @@ class Primaria extends React.Component {
                                       
 
                                       <div className="col-2">
-                                            <label for="exampleFormControlSelect1">Nivel:</label>
+                                            <label htmlFor="exampleFormControlSelect1">Nivel:</label>
                                             <select className="form-control" id="nivel">
                                                   <option>PRIMARIA</option>
                                                   <option>SECUNDARIA</option>
@@ -120,7 +133,7 @@ class Primaria extends React.Component {
                                         </div>
 
                                       <div className="col-2">
-                                            <label for="exampleFormControlSelect1">N° de Orden:</label>
+                                            <label htmlFor="exampleFormControlSelect1">N° de Orden:</label>
                                             <select className="form-control" id="orden">
                                                   <option>1</option>
                                                   <option>2</option>
@@ -163,22 +176,22 @@ class Primaria extends React.Component {
                                         </div>
 
                                         <div className="col-2">
-                                            <label for="exampleFormControlInput1">Código del estudiante:</label>
+                                            <label htmlFor="exampleFormControlInput1">Código del estudiante:</label>
                                             <input type="codigo" className="form-control" id="codigo" placeholder="Código"/>
                                         </div>
 
                                         <div className="col-2">
-                                            <label for="exampleFormControlInput1">Género:</label><br/>
+                                            <label htmlFor="exampleFormControlInput1">Género:</label><br/>
                                             <div className="custom-control custom-radio custom-control-inline">
                                             
                                                 <input type="radio" id="customRadioInline1" name="customRadioInline" className="custom-control-input"/>
-                                                <label className="custom-control-label" for="customRadioInline1">Femenino</label>
+                                                <label className="custom-control-label" htmlFor="customRadioInline1">Femenino</label>
                                           
                                             </div>
                                             <div className="custom-control custom-radio custom-control-inline">
                                             
                                                 <input type="radio" id="customRadioInline2" name="customRadioInline" className="custom-control-input"/>
-                                                <label className="custom-control-label" for="customRadioInline2">Masculino</label>
+                                                <label className="custom-control-label" htmlFor="customRadioInline2">Masculino</label>
                                               
                                             </div>
                                       
@@ -189,7 +202,7 @@ class Primaria extends React.Component {
                                 
 
                                 <div className="form-group">
-                                  <label for="exampleFormControlTextarea1">Observaciones:</label>
+                                  <label htmlFor="exampleFormControlTextarea1">Observaciones:</label>
                                   <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                                 <button type="submit" className="btn btn-primary">Enviar Registro</button>
@@ -206,7 +219,7 @@ class Primaria extends React.Component {
 
                         <div className="form-row">
                               <div className="col-2">
-                                  <label for="exampleFormControlSelect1">Grado:</label>
+                                  <label htmlFor="exampleFormControlSelect1">Grado:</label>
                                   <select className="form-control" id="grado">
                                           <option>Primero</option>
                                           <option>Sedundo</option>
@@ -219,7 +232,7 @@ class Primaria extends React.Component {
                               </div>
 
                               <div className="col-1">
-                                  <label for="exampleFormControlSelect1">Sección:</label>
+                                  <label htmlFor="exampleFormControlSelect1">Sección:</label>
                                   <select className="form-control" id="seccion">
                                           <option>A</option>
                                           <option>B</option>
@@ -231,8 +244,9 @@ class Primaria extends React.Component {
                               </div>
                               <div className="row">
                                    
-                                    <button type="submit" className="btn-listar">Listar Estudiantes</button>
-                                    <label for="exampleFormControlSelect1"></label>
+                                    <button id="btnListar" type="submit" className="btn-listar">Listar Estudiantes</button>
+                                    <button id="btnNuevo" type="submit" className="btn-nuevo" data-toggle="tooltip" title="Nuevo Estudiante"><i className="bi bi-person-plus"></i></button>
+                                    <label htmlFor="exampleFormControlSelect1"></label>
                               </div>
 
                         </div>
@@ -338,7 +352,7 @@ class Primaria extends React.Component {
                         <div className="form-row">
 
                               <div className="col-2">
-                                          <label for="exampleFormControlSelect1">Periodo:</label>
+                                          <label htmlFor="exampleFormControlSelect1">Periodo:</label>
                                           <select className="form-control" id="seccion">
                                                 <option>I Trimestre</option>
                                                 <option>II Trimestre</option>
@@ -347,7 +361,7 @@ class Primaria extends React.Component {
                               </div>
 
                               <div className="col-3">
-                                          <label for="exampleFormControlSelect1">Área Curricular:</label>
+                                          <label htmlFor="exampleFormControlSelect1">Área Curricular:</label>
                                           <select className="form-control" id="seccion">
                                                 <option>PERSONAL SOCIAL</option>
                                                 <option>EDUCACIÓN FÍSICA</option>
@@ -363,7 +377,7 @@ class Primaria extends React.Component {
                               </div>
 
                               <div className="col-2">
-                                    <label for="exampleFormControlSelect1">Grado:</label>
+                                    <label htmlFor="exampleFormControlSelect1">Grado:</label>
                                     <select className="form-control" id="grado">
                                             <option>Primer</option>
                                             <option>Sedundo</option>
@@ -376,7 +390,7 @@ class Primaria extends React.Component {
                                 </div>
 
                                 <div className="col-2">
-                                    <label for="exampleFormControlSelect1">Sección:</label>
+                                    <label htmlFor="exampleFormControlSelect1">Sección:</label>
                                     <select className="form-control" id="seccion">
                                             <option>A</option>
                                             <option>B</option>
@@ -533,13 +547,13 @@ class Primaria extends React.Component {
                                 <div className="row">
                                    
                                     <button type="submit" className="btn-editar">Editar</button>
-                                    <label for="exampleFormControlSelect1"></label>
+                                    <label htmlFor="exampleFormControlSelect1"></label>
                                 </div>
 
                                 <div className="row">
                                   
                                     <button type="submit" className="btn-guardar">Guardar</button>
-                                    <label for="exampleFormControlSelect1"></label>
+                                    <label htmlFor="exampleFormControlSelect1"></label>
                                 </div>
 
                           </div>
@@ -558,7 +572,7 @@ class Primaria extends React.Component {
                       <div className="form-row">
 
                             <div className="col-2">
-                                        <label for="exampleFormControlSelect1">Periodo:</label>
+                                        <label htmlFor="exampleFormControlSelect1">Periodo:</label>
                                         <select className="form-control" id="seccion">
                                               <option>I Trimestre</option>
                                               <option>II Trimestre</option>
@@ -567,7 +581,7 @@ class Primaria extends React.Component {
                             </div>
 
                             <div className="col-2">
-                                  <label for="exampleFormControlSelect1">Grado:</label>
+                                  <label htmlFor="exampleFormControlSelect1">Grado:</label>
                                   <select className="form-control" id="grado">
                                           <option>Primer Grado</option>
                                           <option>Sedundo Grado</option>
@@ -580,7 +594,7 @@ class Primaria extends React.Component {
                               </div>
 
                               <div className="col-1">
-                                  <label for="exampleFormControlSelect1">Sección:</label>
+                                  <label htmlFor="exampleFormControlSelect1">Sección:</label>
                                   <select className="form-control" id="seccion">
                                           <option>A</option>
                                           <option>B</option>
@@ -592,7 +606,7 @@ class Primaria extends React.Component {
                               </div>
 
                               <div className="col-2">
-                                    <label for="exampleFormControlSelect1">N° de Orden:</label>
+                                    <label htmlFor="exampleFormControlSelect1">N° de Orden:</label>
                                     <select className="form-control" id="orden">
                                         <option>1</option>
                                         <option>2</option>
@@ -634,7 +648,7 @@ class Primaria extends React.Component {
                               </div>
 
                               <div className="col-3">
-                                              <label for="inputBuscar">Apellido del Estudiante:</label>
+                                              <label htmlFor="inputBuscar">Apellido del Estudiante:</label>
                                               <input type="text" className="form-control" id="buscar"/>
                                             
                               </div>

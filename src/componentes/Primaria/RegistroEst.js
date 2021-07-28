@@ -6,22 +6,27 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
+const RegistroEstudiante=()=>{
 
-function RegistroEstudiante() {
-    return (
+        return(
+            <form className="card card-body">
+                <div className="form-group">
+                    <input 
+                    type="text" 
+                    className="form-control" 
+                    placeholder="http://iejosefacarrilloyalbornoz.com" 
+                    name="url"/>
 
+                </div>
+                 
+
+            </form>
+            
         
-            <div className="container">
-
-               
-
-                
-
-
-
-            </div>
-
-    );
+        
+        );
 }
+
+
 
 export default RegistroEstudiante;

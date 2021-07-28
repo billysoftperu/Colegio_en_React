@@ -117,7 +117,18 @@ tbody{
 
 }
 
-.btn-listar:hover{
+.btn-nuevo{
+    margin-right: 20px;
+    margin-top: 27px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(22, 102, 252);
+
+}
+
+.btn-listar:hover, .btn-nuevo:hover{
     background-color: rgb(6, 74, 221);
 
 }
