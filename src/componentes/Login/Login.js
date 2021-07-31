@@ -26,23 +26,23 @@ const Login=()=>{
 
                     </div>
 
-                    <h2 className="fw-bold text-center py-5">Ingrese al Sistema</h2>
+                    <h2 className="fw-bold text-center py-5">Ingrese al Sistema de Notas</h2>
 
                     <form action="#">
                         <div className="mb-4">
-                            <label for="usuario" className="form-label">Usuario</label>
+                            <label htmlFor="usuario" className="form-label">Usuario</label>
                             <input type="usuario" className="form-control" name="usuario" placeholder="Usuario"/>
                         </div>
 
                         <div className="mb-4">
-                            <label for="password" className="form-label">Password</label>
+                            <label htmlFor="password" className="form-label">Password</label>
                             <input type="pasword" className="form-control" name="password" placeholder="Password"/>
                         </div>
                             
                         <div className="mb-4" form-check>
                             
                             <input type="checkbox" className="form-check-imput" name="connected"/>
-                            <label for="connected" className="form-check-label">Mantenerme conectado</label>
+                            <label htmlFor="connected" className="form-check-label">Mantenerme conectado</label>
                         </div>
 
                         <div className="d-grid">

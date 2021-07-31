@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './componentes/Header/Header';
 import Navbar from './componentes/Navbar/Navbar'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
+//import './App.css';
 import Home from './componentes/Home/Home';
 import Acerca from './componentes/Acerca/Acerca';
 import Academicas from './componentes/Academicas/Academicas';
@@ -37,6 +37,9 @@ import RegistroEstudiante from './componentes/Primaria/RegistroEst';
 
 
 
+
+
+
 function App() {
 
   
@@ -62,6 +65,7 @@ function App() {
           <Route path='/sisnotas' exact component={SistNotas} />
           <Route path='/login' exact component={Login} />
           <Route path='/registroestudiante' exact component={RegistroEstudiante}/>
+          
                           
         </Switch>
         <Footer />

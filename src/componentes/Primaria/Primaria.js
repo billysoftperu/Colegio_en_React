@@ -5,9 +5,9 @@ import React from 'react';
 import TabNav from '../Notas/TabNav';
 import Tab from '../Notas/Tabs';
 //import RegistroEstudiante from './RegistroEst';
-import Links from './Links';
+//import Links from './Links';
 
-import { ToastContainer } from "react-toastify";
+//import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 class Primaria extends React.Component {
@@ -28,12 +28,7 @@ class Primaria extends React.Component {
         <div className='videoteca-fondo'>
           
           
-          <div className="container p-4">
-            <div className="row">
-                <Links />
-            </div>
-            <ToastContainer />
-          </div>
+          
 
 
           <h2 className="titulo-primaria">NIVEL PRIMARIA 2021</h2>
@@ -265,6 +260,8 @@ class Primaria extends React.Component {
                                     <th scope="col">Celular</th>                                                              
                                     <th scope="col">Correo</th>
                                     <th scope="col">Notas</th>
+                                    <th scope="col">Editar</th>
+                                    <th scope="col">Eliminar</th>
                                     
                                   </tr>
                                 </thead>
@@ -275,66 +272,78 @@ class Primaria extends React.Component {
                                     <td>070605041A</td>
                                     <td>Luis Miguel Sánchez</td>
                                     <td>M</td>
-                                    <td>555-5555</td>
+                                    <td>650-9854</td>
                                     <td>987654321</td>
-                                    <td>123@gmail.com</td>
-                                    <td><a href="/"><i className="far fa-address-card"></i></a><i className="far fa-hand-point-left"></i></td>
+                                    <td>luismiguel@gmail.com</td>
+                                    <td><a href="/"><i className="far fa-address-card"></i></a></td>
+                                    <th><a href="/"><i class="bi bi-pencil-square"></i></a></th>
+                                    <th><a href="/"><i class="bi bi-trash"></i></a></th>
                                   </tr>
                                   <tr>
                                     <th scope="row">2</th>
-                                    <td>07060504</td>
-                                    <td>070605041A</td>
+                                    <td>08102135</td>
+                                    <td>081021351A</td>
                                     <td>José Pérez Gonzales</td>
                                     <td>F</td>
-                                    <td>555-5555</td>
+                                    <td>418-3126</td>
                                     <td>987654321</td>
-                                    <td>123@gmail.com</td>
-                                    <td><a href="/"><i className="far fa-address-card"></i></a><i className="far fa-hand-point-left"></i></td>
+                                    <td>joseperez@gmail.com</td>
+                                    <td><a href="/"><i className="far fa-address-card"></i></a></td>
+                                    <th><a href="/"><i class="bi bi-pencil-square"></i></a></th>
+                                    <th><a href="/"><i class="bi bi-trash"></i></a></th>
                                   </tr>
                                   <tr>
                                     <th scope="row">3</th>
-                                    <td>07060504</td>
-                                    <td>070605041A</td>
+                                    <td>75648949</td>
+                                    <td>756489491A</td>
                                     <td>Ricardo Gonzales Hurtado</td>
                                     <td>M</td>
-                                    <td>555-5555</td>
+                                    <td>270-4531</td>
                                     <td>987654321</td>
-                                    <td>123@gmail.com</td>
-                                    <td><a href="/"><i className="far fa-address-card"></i></a><i className="far fa-hand-point-left"></i></td>
+                                    <td>ricardogonzales@gmail.com</td>
+                                    <td><a href="/"><i className="far fa-address-card"></i></a></td>
+                                    <th><a href="/"><i class="bi bi-pencil-square"></i></a></th>
+                                    <th><a href="/"><i class="bi bi-trash"></i></a></th>
                                   </tr>
                                   <tr>
                                     <th scope="row">4</th>
-                                    <td>07060504</td>
-                                    <td>070605041A</td>
+                                    <td>32644848</td>
+                                    <td>326448481A</td>
                                     <td>Elena Paz Hinojoza</td>
                                     <td>F</td>
-                                    <td>555-5555</td>
+                                    <td>361-5170</td>
                                     <td>987654321</td>
-                                    <td>123@gmail.com</td>
-                                    <td><a href="/"><i className="far fa-address-card"></i></a><i className="far fa-hand-point-left"></i></td>
+                                    <td>elenapaz@gmail.com</td>
+                                    <td><a href="/"><i className="far fa-address-card"></i></a></td>
+                                    <th><a href="/"><i class="bi bi-pencil-square"></i></a></th>
+                                    <th><a href="/"><i class="bi bi-trash"></i></a></th>
                                   </tr>
                                   <tr>
                                     <th scope="row">5</th>                                    
-                                    <td>07060504</td>
-                                    <td>070605041A</td>
+                                    <td>58748945</td>
+                                    <td>587489451A</td>
                                     <td>María Norabuena Saenz</td>
                                     <td>F</td>
-                                    <td>555-5555</td>
+                                    <td>589-1241</td>
                                     <td>987654321</td>
-                                    <td>123@gmail.com</td>
-                                    <td><a href="/"><i className="far fa-address-card"></i></a><i className="far fa-hand-point-left"></i></td>
+                                    <td>marianorabuena@gmail.com</td>
+                                    <td><a href="/"><i className="far fa-address-card"></i></a></td>
+                                    <th><a href="/"><i class="bi bi-pencil-square"></i></a></th>
+                                    <th><a href="/"><i class="bi bi-trash"></i></a></th>
                                     
                                   </tr>
                                   <tr>
                                     <th scope="row">6</th>
-                                    <td>07060504</td>
-                                    <td>070605041A</td>
+                                    <td>32484172</td>
+                                    <td>324841721A</td>
                                     <td>Miguel Peña Quispe</td>
                                     <td>M</td>
-                                    <td>555-5555</td>
+                                    <td>467-1234</td>
                                     <td>987654321</td>
-                                    <td>123@gmail.com</td>
-                                    <td><a href="/"><i className="far fa-address-card"></i></a><i className="far fa-hand-point-left"></i></td>
+                                    <td>miguelpenia@gmail.com</td>
+                                    <td><a href="/"><i className="far fa-address-card"></i></a></td>
+                                    <th><a href="/"><i class="bi bi-pencil-square"></i></a></th>
+                                    <th><a href="/"><i class="bi bi-trash"></i></a></th>
                                   </tr>
                                 </tbody>
                                 
@@ -546,13 +555,13 @@ class Primaria extends React.Component {
 
                                 <div className="row">
                                    
-                                    <button type="submit" className="btn-editar">Editar</button>
+                                    <button type="submit" className="btn-editar">Editar Notas</button>
                                     <label htmlFor="exampleFormControlSelect1"></label>
                                 </div>
 
                                 <div className="row">
                                   
-                                    <button type="submit" className="btn-guardar">Guardar</button>
+                                    <button type="submit" className="btn-guardar">Guardar Notas</button>
                                     <label htmlFor="exampleFormControlSelect1"></label>
                                 </div>
 
@@ -583,12 +592,12 @@ class Primaria extends React.Component {
                             <div className="col-2">
                                   <label htmlFor="exampleFormControlSelect1">Grado:</label>
                                   <select className="form-control" id="grado">
-                                          <option>Primer Grado</option>
-                                          <option>Sedundo Grado</option>
-                                          <option>Tercero Grado</option>
-                                          <option>Cuarto Grado</option>
-                                          <option>Quinto Grado</option>
-                                          <option>Sexto Grado</option>
+                                          <option>Primero</option>
+                                          <option>Sedundo</option>
+                                          <option>Tercero</option>
+                                          <option>Cuarto</option>
+                                          <option>Quinto</option>
+                                          <option>Sexto</option>
                                                                    
                                   </select>
                               </div>

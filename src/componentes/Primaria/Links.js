@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import LinksForm from "./LinksForm";
 
-import { db } from "../../firebase";
+import { db } from "../firebase";
 import { toast } from "react-toastify";
 
 const Links = () => {
@@ -19,9 +19,9 @@ const Links = () => {
   };
 
   const onDeleteLink = async (id) => {
-    if (window.confirm("¿Estás seguro de que quieres eliminar este enlace?")) {
+    if (window.confirm("are you sure you want to delete this link?")) {
       await db.collection("links").doc(id).delete();
-      toast("Enlace eliminado satisfactoriamente", {
+      toast("Link Removed Successfully", {
         type: "error",
         autoClose: 2000
       });
@@ -36,12 +36,12 @@ const Links = () => {
     try {
       if (currentId === "") {
         await db.collection("links").doc().set(linkObject);
-        toast("Nueva tarea agregada", {
+        toast("New Link Added", {
           type: "success",
         });
       } else {
         await db.collection("links").doc(currentId).update(linkObject);
-        toast("Link actualizó satisfactoriamente", {
+        toast("Link Updated Successfully", {
           type: "info",
         });
         setCurrentId("");
@@ -52,7 +52,7 @@ const Links = () => {
   };
 
   return (
-    <div className="container">
+    <>
       <div className="col-md-4 p-2">
         <LinksForm {...{ addOrEditLink, currentId, links }} />
       </div>
@@ -83,7 +83,7 @@ const Links = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

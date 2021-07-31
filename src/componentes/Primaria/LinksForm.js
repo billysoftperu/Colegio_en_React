@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { db } from "../../firebase";
+import { db } from "../firebase";
 import { toast } from "react-toastify";
 
 const LinksForm = (props) => {
@@ -77,7 +77,7 @@ const LinksForm = (props) => {
           type="text"
           value={values.name}
           name="name"
-          placeholder="Nombre de la Website"
+          placeholder="Website Name"
           className="form-control"
           onChange={handleInputChange}
         />
@@ -86,7 +86,7 @@ const LinksForm = (props) => {
         <textarea
           rows="3"
           className="form-control"
-          placeholder="Escriba una descripción"
+          placeholder="Write a Description"
           name="description"
           value={values.description}
           onChange={handleInputChange}
